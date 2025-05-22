@@ -4,7 +4,7 @@
 [![Left: station-to-station path of a single bus through Stuttgart obtained from official schedule data. Right: path of the same bus map-matched by pfaedle.](geo/stuttgart_ex_res.png?raw=true)](geo/stuttgart_ex.png?raw=true)  
 *Left: station-to-station path of a single bus through Stuttgart obtained from official schedule data. Right: path of the same bus map-matched by pfaedle.*
 
-[![Build](https://github.com/ad-freiburg/pfaedle/actions/workflows/build.yml/badge.svg)](https://github.com/ad-freiburg/pfaedle/actions/workflows/build.yml)
+[![Build](https://github.com/tuesd4y/pfaedle/actions/workflows/build.yml/badge.svg)](https://github.com/tuesd4y/pfaedle/actions/workflows/build.yml)
 
 # pfaedle
 
@@ -92,7 +92,7 @@ $ docker run -i --rm \
 	--volume /path/to/gtfs/data:/gtfs \
 	# mount default output folder gtfs-out
 	--volume /path/to/output-dir:/gtfs-out \
-	ghcr.io/ad-freiburg/pfaedle:latest \
+	ghcr.io/tuesd4y/pfaedle:latest \
 	# tell pfaedle where to find the data
 	-x /osm/osm-data.xml.bz2 -i /gtfs/myfeed.zip
 ```
